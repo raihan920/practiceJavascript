@@ -8,6 +8,9 @@ console.log(elm1, elm2, elm3);
 const [elm4, ...restElm] = arr2;
 console.log(elm4, restElm);
 
+const [...myRest] = arr2;
+console.log(myRest)
+
 //use of 'rest operator' in object
 const studentInfo = {
     student_id: 123,
